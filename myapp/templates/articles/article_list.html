@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Articles</title>
+</head>
+<body>
+  <h2>
+    🎨🎨🎨 Article s
+  </h2>
+  <div class="articles">
+   
+      {% for article in articles %}
+         <div class="article">
+          <h3><a href="#">{{ article.title }}</a></h3>
+          <p>{{ article.snap() }}</p>
+          <p>{{ article.date }}</p>
+         </div>
+       {% endfor %}
+  </div>
+ </body>
+</html>
