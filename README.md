@@ -4,7 +4,8 @@
 ## id as the project name issue
 my interpreter of the specific Cbvs assignment crushed ,so i had to shift and used an old project that i had already started with my zuri 
 username 'Levine'  everytime i create a new env my interpreter crushes.so i hope using old django that i had started ha no issue..
-my zuri id name ''
+
+## my zuri id  '14GOO2793WPN'
 
 ## project...
 ## starting project ,app and model
